@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>VueJS Tutorials</title>
+        <link href="styles.css" rel="stylesheet" />
+        <script src="https://unpkg.com/vue"></script>
+    </head>
+    <body>
+        <div id="vue-app">
+            <h1>Multi-instance</h1>
+                <!--first App here-->
+                <div id="vue-app-top">
+                    <h2>Movie : {{ movie }}</h2>
+                    <!--From the Computed object-->
+                    <p>{{greet}}</p>
+                </div>
+                <!--second App here-->
+                 <div id="vue-app-bottom">
+                    <h2>Actor : {{ actor }}</h2>
+                     <!--From the Computed object-->
+                    <p>{{greet}}</p>
+                    <!--Button changing title in the top component-->
+                    <button @click="changeHeader">Change Header</button>
+                </div>
+       
+        </div>
+    </body>
+
+    <script src="multinstance.app.js"></script>
+</html>

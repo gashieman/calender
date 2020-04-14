@@ -1,0 +1,35 @@
+#canvas{
+    width: 600px;
+    padding: 200px 20px;
+    text-align: center;
+    border: 1px solid #333;
+}
+
+#bag{
+  width: 350px;
+  height: 350px;
+  margin: 0 auto;
+  background: url(punching.jpg) center no-repeat;
+  background-size: 80%;   
+}
+
+#bag.burst{
+    background: url(punching-break.jpg) center no-repeat;
+    background-size: 80%;   
+  }
+
+#bag-health{
+    width: 350px;
+    border: 2px solid #333;
+    margin: 0 auto 20px auto;
+  }
+
+  #bag-health div{
+    height: 20px;
+    background: tomato;
+  }
+
+  #controls{
+    width:120px;
+    margin: 0 auto;  
+  }
